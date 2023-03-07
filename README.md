@@ -1,5 +1,5 @@
 # Songbird
-#### Songbird - приложение-викторина для распознавания птиц по их голосам.
+#### Songbird is a quiz app for recognizing birds by their voices.
 # Application structure
 ---
  ##### The appendix consists of three pages
