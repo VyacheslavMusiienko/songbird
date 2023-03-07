@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.logo{
+  font-size: larger;
+}
+.menu{
+  display: flex;
+
+  &__list{
+    margin: 0 10px;
+  }
+}
