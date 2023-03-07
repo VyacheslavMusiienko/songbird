@@ -1,0 +1,27 @@
+.birdie{
+  &__img{
+    border-radius: 5px;
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+  &__group,
+  &__group_description{
+    width: 100%;
+    margin-left: 20px;
+  }
+  
+  &__name{
+    padding-bottom: 5px;
+    border-bottom: 2px solid $color-border;
+  }
+  
+  &__audio-player{
+    margin: 20px 0;
+  }
+
+  &__latinize{
+    padding: 5px 0;
+    border-bottom: 2px solid $color-border;
+  }
+}

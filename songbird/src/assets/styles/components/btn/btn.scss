@@ -1,0 +1,21 @@
+.position__btn{
+  text-align: center;
+}
+
+.btn{
+  background-color: $color-btn;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  
+  &:hover{
+    color: $color-href;
+    opacity: 0.8;
+  }
+}
+
+.start{
+  line-height: 50vh;
+}

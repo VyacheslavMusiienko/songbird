@@ -1,0 +1,36 @@
+@media screen and (max-width: 620px) {
+  .question__item{
+    &:nth-child(1){
+      border-radius: 5px 0 0 0;
+    }
+    &:nth-last-child(1){
+      border-radius: 0 0 5px 5px;
+    }
+    &:nth-last-child(2){
+      border-radius: 0 5px 0 0;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .question__item{
+    &:nth-last-child(1){
+      border-radius: 0 0 5px 0;
+    }
+    &:nth-last-child(2){
+      border-radius: 0 0 0 5px;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .question__item{
+    &:nth-child(3){
+      border-radius: 0 5px 0 0;
+    }
+    &:nth-last-child(2){
+      border-radius: 0 0 0 0;
+    }
+    &:nth-last-child(3){
+      border-radius: 0 0 0 5px;
+    }
+  }
+}
